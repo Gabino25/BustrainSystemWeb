@@ -1,0 +1,284 @@
+@charset "UTF-8";
+@import url('/BustrainSystemWeb/resources/css/utils/common.css');
+
+* {
+  box-sizing: border-box;
+}
+
+div.dataTables_wrapper {
+        width: 98%;
+        margin: 10px;
+    }
+
+body input, textarea{
+text-transform:uppercase;
+}
+
+h1 { 
+     width:1024px;
+     color: white;
+     font-family: Arial;
+     text-align: center;
+     margin: 1px 1px 1px 1px;
+     padding: 1px 1px 1px 1px;
+     border-top: 1px solid black;
+     border-right: 1px solid black;
+     border-bottom: 1px solid black;
+     border-left: 1px solid black;
+     background-color: blue;
+      }
+ 
+/*     
+#TableRO{
+ width:1024px;
+ margin: 1px 1px 1px 1px;
+ padding: 1px 1px 1px 1px;
+ border-top: 1px solid black;
+ border-right: 1px solid black;
+ border-bottom: 1px solid black;
+ border-left: 1px solid black;
+ border-collapse:collapse;
+}      
+
+
+#TableRO th{
+border-top: 1px solid black;
+border-right: 1px solid black;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+background-color:#ccc;
+}
+
+#TableRO td{
+border-top: 1px solid black;
+border-right: 1px solid black;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+}
+
+*/
+
+
+div .column1{
+ float:left;
+}
+
+div .column2{
+ float:left;
+}
+
+div .column3{
+ float:left;
+}
+
+.column1{
+ width: 331.33px;
+ height:30px;
+ border-top: 1px solid black;
+ border-right: 1px solid black;
+ border-bottom: 1px solid black;
+ border-left: 1px solid black;
+}
+
+.column2{
+ width:361.33px;
+ height:30px;
+ border-top: 1px solid black;
+ border-right: 1px solid black;
+ border-bottom: 1px solid black;
+ border-left: 1px solid black;
+}
+
+.column3{
+ width:331.33px;
+ height:30px;
+ border-top: 1px solid black;
+ border-right: 1px solid black;
+ border-bottom: 1px solid black;
+ border-left: 1px solid black;
+}
+
+textarea{
+resize:none;
+  width: 300px;
+  height: 50px;
+}
+
+#buttonsTable{
+
+ width:1024px;
+ border:1px solid black;
+ padding-left:200px; 
+ padding-right:200px; 
+ padding-top:5px; 
+ padding-bottom:5px; 
+}
+#buttonsTablev2{
+
+ width:1024px;
+ padding-left:200px; 
+ padding-right:200px; 
+ padding-top:5px; 
+ padding-bottom:5px; 
+}
+#formTabRight{
+ width:408px;
+ height:337px;
+float:left;
+border:1px solid black;
+}
+
+#formTabLeft{
+ width:615px;
+ height:337px;
+ float:left;
+ border:1px solid black;
+}
+
+ button{
+	margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+	padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor:pointer;
+    } 
+    
+#TableRO tbody td{/*color: red;*/
+                 white-space: nowrap;
+                 }     
+
+input:focus{
+   border: 2px solid #000; 
+   background: #F3F3F3;
+   }                 
+
+/**** Comienza Header with Main Navigation
+----------------------------------------------------------------------**/
+#divHeader{
+	 margin-top: 1px;
+	 padding-top: 1px;
+	 margin-bottom: 8px;
+	 padding-bottom: 8px;
+}
+
+#navMain{
+	clear:both;
+	float:left;
+	width:100%;
+	list-style:none;
+	margin:0;
+	padding:0;
+	/*border-left: 1px solid #7C7C7C;*/
+}
+
+#navMain li{
+	display:inline;
+	float:left;
+	width:10%;
+}
+
+
+#navMain li a:link{
+padding: .3em; 
+display: block; 
+text-decoration: none; 
+color:#fff;
+font-family:Arial;
+font-weight: bold;
+font-size:15px !important;
+background: #ff8000;
+/* border-top: 1px solid #7C7C7C;*/
+/* border-right: 1px solid #7C7C7C; */
+/* border-bottom: 1px solid #9C9C9C; */
+
+}
+
+#navMain li a:visited{
+padding: .3em; 
+display: block; 
+text-decoration: none; 
+color:#fff;
+font-family:Arial;
+font-weight: bold;
+font-size:15px !important;
+background: #ff8000;
+/* border-top: 1px solid #7C7C7C; */
+/* border-right: 1px solid #7C7C7C; */ 
+/* border-bottom: 1px solid #9C9C9C; */
+}
+
+
+#navMain li ul{
+	clear:both;
+	width:170px;
+	list-style:none;
+	/* border-left: 1px solid #7C7C7C; */
+	position:absolute;
+	left: -999em;
+    margin-right: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    z-index: 999 !important;
+}
+
+#navMain li ul li{
+  	width:170px;
+    z-index: 999 !important;
+}
+
+#navMain li:hover ul {
+	left: auto;
+}
+
+
+#navMain li ul a:link{
+padding: .3em; 
+display: block; 
+text-decoration: none; 
+color:#fff;
+font-family:Arial;
+font-weight: bold;
+font-size:15px !important;
+/* background: #528FD5; */
+/* border-top: 1px solid #7C7C7C; */
+/* border-right: 1px solid #7C7C7C; */ 
+/* border-bottom: 1px solid #9C9C9C; */
+
+}
+
+#navMain li ul  a:visited{
+padding: .3em; 
+display: block; 
+text-decoration: none; 
+color:#fff;
+font-family:Arial;
+font-weight: bold;
+font-size:15px !important;
+/* background: #528FD5; */
+/* border-top: 1px solid #7C7C7C;  */
+/* border-right: 1px solid #7C7C7C;  */
+/* border-bottom: 1px solid #9C9C9C; */
+}
+/**** Finaliza Header with Main Navigation
+----------------------------------------------------------------------**/
+
+.xxbstdtextalign{
+ text-align:right;
+  padding-right:5px;
+}
+
+.xxbstdvalign{
+ vertical-align:top;
+}
+
+#footerTbl{
+	  background-image:url('../../images/footerBg.gif');
+	  width:100%;
+	  position: fixed;
+      left: 0;
+      bottom: 0;
+}   

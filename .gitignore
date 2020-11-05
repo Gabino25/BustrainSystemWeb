@@ -1,0 +1,9 @@
+/build/
+/target/
+/.settings/
+/.classpath
+/.project
+/PROYECTOS/
+/SoftwareOpen/
+/.tern-project
+/src/ConexionJDBC.properties

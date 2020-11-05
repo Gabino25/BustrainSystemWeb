@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import url('/BustrainSystemWeb/resources/css/utils/common.css');
+
+/*
+*{
+ margin-top: 1px; 
+ margin-bottom: 1px; 
+ margin-left: 1px;
+ margin-right: 1px;
+ padding-top: 1px; 
+ padding-bottom: 1px; 
+ padding-left: 1px;
+ padding-right: 1px;
+ border-top:  1px solid #abb2b9; 
+ border-bottom:  1px solid #abb2b9; 
+ border-left:  1px solid #abb2b9; 
+ border-right:  1px solid #abb2b9; 
+}
+*/
+
+div.dataTables_wrapper {
+       width: 98%;
+       margin: 10px;
+    }
+    
+
+                   
+ .tdLab{
+   text-align:right;
+   padding-right:10px;
+   }
+
+  
+   
+  
+    
+ 

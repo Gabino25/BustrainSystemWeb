@@ -1,0 +1,6 @@
+@charset "ISO-8859-1";
+@import url('/BustrainSystemWeb/resources/css/utils/common.css');
+
+div.dataTables_wrapper{
+	width:100%;
+}

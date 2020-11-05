@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url('/BustrainSystemWeb/resources/css/utils/common.css');
+
+/*{
+ margin-top: 1px; 
+ margin-bottom: 1px; 
+ margin-left: 1px;
+ margin-right: 1px;
+ padding-top: 1px; 
+ padding-bottom: 1px; 
+ padding-left: 1px;
+ padding-right: 1px;
+ border-top:  1px solid #abb2b9; 
+ border-bottom:  1px solid #abb2b9; 
+ border-left:  1px solid #abb2b9; 
+ border-right:  1px solid #abb2b9; 
+}*/
+
+.ui-datepicker {font-size:85%;
+                }   
+
+div.dataTables_wrapper {
+       width:824px;
+       margin: 0px;
+    }
+
+.xxbstar{
+	text-align:right;
+}
+
+ .ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    }
+
+  /* IE 6 doesn't support max-height
+   * we use height instead, but this forces the menu to always be this tall
+   */
+
+  * html .ui-autocomplete {
+    height: 200px;
+    }
+    
+  .ui-tooltip {
+    width:25%;
+  }
